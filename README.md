@@ -7,9 +7,10 @@ Do naprawienia w KACTL
 - ModMul
 - Zredagować ściągi, pewnie wywalić większość
 - Jakby się kiedyś chciało to naprawić spacing
+- Naprawić spacing w Mathematics
 
 Do weryfikacji w KACTL
-- [ ] Contest
+- [x] Contest
 - [ ] Mathematics
 - [ ] Data structures
 - [ ] Numerical
