@@ -1,13 +1,21 @@
 # kactl
 
 Inne
-- Cachowanie testów (GITHUB_TOKEN) działa?
+- Cachowanie testów (`GITHUB_TOKEN`) działa?
 
 Do naprawienia w KACTL
 - ModMul
 - Zredagować ściągi, pewnie wywalić większość
 - Jakby się kiedyś chciało to naprawić spacing
 - Naprawić spacing w Mathematics
+
+Przenieść z acmlib
+- ModInt
+- PrimitiveRoot
+- NTT
+- Conv3
+- AngleCmp
+- HullTangents
 
 Do weryfikacji w KACTL
 - [x] Contest
