@@ -4,8 +4,9 @@ Inne
 - Cachowanie testów (GITHUB_TOKEN) działa?
 
 Do naprawienia w KACTL
-- [ ] ModMul
-- [ ] Zredagować ściągi, pewnie wywalić większość
+- ModMul
+- Zredagować ściągi, pewnie wywalić większość
+- Jakby się kiedyś chciało to naprawić spacing
 
 Do weryfikacji w KACTL
 - [ ] Contest
