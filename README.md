@@ -1,5 +1,8 @@
 # kactl
 
+Inne
+- Cachowanie testów (GITHUB_TOKEN) działa?
+
 Do naprawienia w KACTL
 - [ ] ModMul
 - [ ] Zredagować ściągi, pewnie wywalić większość
