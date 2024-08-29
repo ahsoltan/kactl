@@ -10,6 +10,7 @@ Do naprawienia w KACTL
 - Naprawić spacing w Mathematics
 
 Przenieść z acmlib
+- EulerWalk zmieniony
 - ModInt
 - PrimitiveRoot
 - NTT
