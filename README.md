@@ -15,7 +15,9 @@ Przenieść z acmlib
 - PrimitiveRoot
 - NTT
 - Conv3
+- SameDiv
 - AngleCmp
+- Duval
 - HullTangents
 
 Do weryfikacji w KACTL
