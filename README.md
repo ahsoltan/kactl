@@ -11,10 +11,7 @@ Do naprawienia w KACTL
 
 Przenieść z acmlib
 - EulerWalk zmieniony
-- ModInt
 - PrimitiveRoot
-- NTT
-- Conv3
 - SameDiv
 - AngleCmp
 - Duval
