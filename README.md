@@ -85,6 +85,7 @@ Matma
 - [ ] Generowanie trójek pitagorejskich
 - [ ] Przedziały równości dzielenia floor/ceil
 - [ ] XOR basis
+- [ ] Mnożniki lagrange'a
 
 Grafy
 - [ ] DSU
