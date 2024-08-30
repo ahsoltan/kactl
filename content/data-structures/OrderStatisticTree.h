@@ -10,12 +10,13 @@
  */
 #pragma once
 
-#include <bits/extc++.h> /** keep-include */
+#include <ext/pb_ds/assoc_container.hpp> /// keep-include
+#include <ext/pb_ds/tree_policy.hpp> /// keep-include
 using namespace __gnu_pbds;
 
 template<class T>
 using Tree = tree<T, null_type, less<T>, rb_tree_tag,
-    tree_order_statistics_node_update>;
+                  tree_order_statistics_node_update>;
 
 void example() {
 	Tree<int> t, t2; t.insert(8);
