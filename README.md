@@ -4,10 +4,8 @@ Inne
 - Cachowanie testów (`GITHUB_TOKEN`) działa?
 
 Do naprawienia w KACTL
-- ModMul
 - Zredagować ściągi, pewnie wywalić większość
-- Jakby się kiedyś chciało to naprawić spacing
-- Naprawić spacing w Mathematics
+- Naprawić spacing
 
 Przenieść z acmlib
 - EulerWalk zmieniony
@@ -16,6 +14,7 @@ Przenieść z acmlib
 - AngleCmp
 - Duval
 - HullTangents
+- Testy
 
 Do weryfikacji w KACTL
 - [x] Contest
