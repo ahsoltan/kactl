@@ -14,7 +14,26 @@ Przenieść z acmlib
 - AngleCmp
 - Duval
 - HullTangents
-- Testy
+
+Testy do przeniesienia
+```
+.
+├── geometry
+│   ├── AngleCmp.test.cpp
+│   ├── ConvexHull.test.cpp
+│   └── HullDiameter.test.cpp
+├── graph
+│   ├── EulerWalk1.test.cpp
+│   ├── EulerWalk2.test.cpp
+│   └── SCC.test.cpp
+├── math
+│   ├── FWHT.test.cpp
+│   ├── PrimitiveRoot.test.cpp
+│   └── SameDiv.test.cpp
+└── string
+    ├── Duval.test.cpp
+    └── Z.test.cpp
+```
 
 Do weryfikacji w KACTL
 - [x] Contest
