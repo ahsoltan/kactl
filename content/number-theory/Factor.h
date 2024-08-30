@@ -3,8 +3,7 @@
  * Date: 2020-03-04
  * License: CC0
  * Source: own
- * Description: Pollard-rho randomized factorization algorithm. Returns prime
- * factors of a number, in arbitrary order (e.g. 2299 -> \{11, 19, 11\}).
+ * Description: Pollard-rho randomized factorization algorithm.
  * Time: $O(n^{1/4})$, less for numbers with small factors.
  * Status: stress-tested
  *
@@ -61,11 +60,9 @@ ull pollard(ull n) {
 	}
 	return __gcd(prd, n);
 }
-vector<ull> factor(ull n) {
-	if (n == 1) return {};
-	if (isPrime(n)) return {n};
-	ull x = pollard(n);
-	auto l = factor(x), r = factor(n / x);
-	l.insert(l.end(), all(r));
-	return l;
+void factor(ull n, map<ull, int>& cnt) {
+  if (n == 1) return;
+  if (isPrime(n)) { cnt[n]++; return; }
+  ull x = pollard(n);
+  factor(x, cnt); factor(n / x, cnt);
 }
