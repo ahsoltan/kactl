@@ -11,7 +11,6 @@ Przenieść z acmlib
 - EulerWalk zmieniony
 - PrimitiveRoot
 - SameDiv
-- AngleCmp
 - Duval
 - HullTangents
 
@@ -19,7 +18,6 @@ Testy do przeniesienia
 ```
 .
 ├── geometry
-│   ├── AngleCmp.test.cpp
 │   ├── ConvexHull.test.cpp
 │   └── HullDiameter.test.cpp
 ├── graph
