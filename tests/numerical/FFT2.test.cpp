@@ -26,7 +26,7 @@ void __print(auto... x) { ((cerr << ' ' << x), ...) << endl; }
 #endif
 
 #include "content/numerical/FFT.h"
-using mi = mod<1000000007, 5>;
+using mi = Mod<1000000007, 5>;
 
 int main() {
   cin.tie(0)->sync_with_stdio(0);

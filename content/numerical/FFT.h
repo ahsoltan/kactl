@@ -40,9 +40,9 @@ vector<T> mconv(const auto& x, const auto& y) {
 }
 template<class T>
 vector<T> conv3(const vector<T>& a, const vector<T>& b) {
-  using m0 = mod<754974721, 11>; auto c0 = mconv<m0>(a, b);
-  using m1 = mod<167772161, 3>;  auto c1 = mconv<m1>(a, b);
-  using m2 = mod<469762049, 3>;  auto c2 = mconv<m2>(a, b);
+  using m0 = Mod<754974721, 11>; auto c0 = mconv<m0>(a, b);
+  using m1 = Mod<167772161, 3>;  auto c1 = mconv<m1>(a, b);
+  using m2 = Mod<469762049, 3>;  auto c2 = mconv<m2>(a, b);
   int n = sz(c0); vector<T> d(n); m1 r01 = m1(m0::MOD).inv();
   m2 r02 = m2(m0::MOD).inv(), r12 = m2(m1::MOD).inv();
   rep(i, 0, n) {

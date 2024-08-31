@@ -178,6 +178,8 @@ Geometria
 - [ ] Generowanie SVG wielokąta z punktów
 - [ ] Diagram Voronoia
 - [ ] Konwersja między postaciami prostych
+- [ ] Test czy odcinek jest w środku wielokąta
+- [ ] Zamiatanie cykliczne półprostą
 
 Teksty
 - [ ] KMP
