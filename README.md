@@ -10,7 +10,6 @@ Do naprawienia w KACTL
 Przenieść z acmlib
 - EulerWalk zmieniony
 - PrimitiveRoot
-- SameDiv
 - Duval
 - HullTangents
 
@@ -27,7 +26,6 @@ Testy do przeniesienia
 ├── math
 │   ├── FWHT.test.cpp
 │   ├── PrimitiveRoot.test.cpp
-│   └── SameDiv.test.cpp
 └── string
     ├── Duval.test.cpp
     └── Z.test.cpp
