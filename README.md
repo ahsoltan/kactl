@@ -5,13 +5,12 @@ Inne
 
 Do naprawienia w KACTL
 - Zredagować ściągi, pewnie wywalić większość
-- Naprawić margines po spisie treści
+- Naprawić spacing po spisie treści i w ściągach
 
 Przenieść z acmlib
 - EulerWalk zmieniony
 - PrimitiveRoot
 - Duval
-- HullTangents
 
 Testy do przeniesienia
 ```
