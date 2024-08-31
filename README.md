@@ -5,7 +5,7 @@ Inne
 
 Do naprawienia w KACTL
 - Zredagować ściągi, pewnie wywalić większość
-- Naprawić spacing
+- Naprawić margines po spisie treści
 
 Przenieść z acmlib
 - EulerWalk zmieniony
