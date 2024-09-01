@@ -16,7 +16,6 @@ Testy do przeniesienia
 ```
 .
 ├── geometry
-│   ├── ConvexHull.test.cpp
 │   └── HullDiameter.test.cpp
 ├── graph
 │   ├── EulerWalk1.test.cpp
@@ -146,7 +145,7 @@ Geometria
 - [x] Przecięcie prostych/odcinków (T)
 - [x] Środek ciężkości wielokąta (T)
 - [x] Test czy jest w środku wielokąta (T)
-- [x] Otoczka wypukła (T)
+- [x] Otoczka wypukła
 - [ ] Suma minkowskiego
 - [x] Najdalsze punkty na otoczce (T)
 - [x] Styczne do otoczki (T)
@@ -161,9 +160,9 @@ Geometria
 - [x] Wspólne styczne okręgów (T)
 - [x] Okrąg opisany na trójkącie (T)
 - [x] Min enclosing circle (T)
-- [x] Najbliższa para punktów (T)
+- [x] Najbliższa para punktów
 - [x] Delaunay triangulation (T)
-- [x] Manhattan MST (T)
+- [x] Manhattan MST
 - [x] Punkt 3D (T)
 - [x] Otoczka 3D O(n^2) (T)
 - [ ] Otoczka 3D O(n log n)

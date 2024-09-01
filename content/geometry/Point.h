@@ -14,7 +14,7 @@ template<class T>
 struct Point {
   typedef Point P;
   T x, y;
-  bool operator<=>(const P&) const = default;
+  auto operator<=>(const P&) const = default;
   P operator+(P p) const { return P(x+p.x, y+p.y); }
   P operator-(P p) const { return P(x-p.x, y-p.y); }
   P operator*(T d) const { return P(x*d, y*d); }
