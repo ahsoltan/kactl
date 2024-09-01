@@ -140,35 +140,38 @@ Grafy
 
 Geometria
 - [ ] Zdecydować postępowanie co do templatów i doubli
-- [ ] Punkt
-- [ ] Angle cmp
-- [ ] Segment dist, line dist
-- [ ] Przecięcie prostych/odcinków
-- [ ] Środek ciężkości wielokąta
-- [ ] Test czy jest w środku wielokąta
-- [ ] Otoczka wypukła
+- [x] Punkt (T)
+- [x] Angle cmp
+- [x] Segment dist, line dist (T)
+- [x] Przecięcie prostych/odcinków (T)
+- [x] Środek ciężkości wielokąta (T)
+- [x] Test czy jest w środku wielokąta (T)
+- [x] Otoczka wypukła (T)
 - [ ] Suma minkowskiego
-- [ ] Najdalsze punkty na otoczce
-- [ ] Styczne do otoczki
-- [ ] Przecięcie otoczki z prostą
+- [x] Najdalsze punkty na otoczce (T)
+- [x] Styczne do otoczki (T)
+- [x] Przecięcie otoczki z prostą (T)
 - [ ] Przecięcie półpłaszczyzn
 - [ ] Online przecięcie półpłaszczyzn
-- [ ] Suma wielokątów
+- [x] Suma wielokątów (T)
 - [ ] Okrąg
-- [ ] Przecięcie okrąg okrąg i pole
-- [ ] Przecięcie okręgu i prostej
-- [ ] Wspólne styczne okręgów
-- [ ] Okrąg opisany na trójkącie
-- [ ] Min enclosing circle
-- [ ] Najbliższa para punktów
-- [ ] Delaunay triangulation
-- [ ] Manhattan MST
-- [ ] Punkt 3D
-- [ ] Otoczka 3D
-- [ ] Pole powierzchni i objętość
-- [ ] Test czy punkt w otoczce
-- [ ] Obcięcie wielokąta prostą
-- [ ] Pole wielokąta
+- [x] Przecięcie okrąg okrąg (T)
+- [ ] Pole przecięcia okrąg okrąg
+- [x] Przecięcie okręgu i prostej (T)
+- [x] Wspólne styczne okręgów (T)
+- [x] Okrąg opisany na trójkącie (T)
+- [x] Min enclosing circle (T)
+- [x] Najbliższa para punktów (T)
+- [x] Delaunay triangulation (T)
+- [x] Manhattan MST (T)
+- [x] Punkt 3D (T)
+- [x] Otoczka 3D O(n^2) (T)
+- [ ] Otoczka 3D O(n log n)
+- [ ] Pole powierzchni
+- [x] Objętość (T)
+- [x] Test czy punkt w otoczce (T)
+- [x] Obcięcie wielokąta prostą (T)
+- [x] Pole wielokąta (T)
 - [ ] Online otoczka wypukła
 - [ ] Generowanie SVG wielokąta z punktów
 - [ ] Diagram Voronoia
