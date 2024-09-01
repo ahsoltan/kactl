@@ -26,7 +26,6 @@ Testy do przeniesienia
 │   ├── PrimitiveRoot.test.cpp
 └── string
     ├── Duval.test.cpp
-    └── Z.test.cpp
 ```
 
 Do weryfikacji w KACTL
