@@ -6,6 +6,9 @@ Inne
 Do naprawienia w KACTL
 - Zredagować ściągi, pewnie wywalić większość
 - Naprawić spacing po spisie treści i w ściągach
+- Zmergować algebrę na doublach i mintach przez szablony
+- Wywalić ull z number-theory
+- Generalnie prawie wszystko modulo powinno być na mintach
 
 Przenieść z acmlib
 - EulerWalk zmieniony
@@ -178,19 +181,19 @@ Geometria
 - [ ] Zamiatanie cykliczne półprostą
 
 Teksty
-- [ ] KMP
-- [ ] Z
-- [ ] Manacher
+- [x] KMP (T)
+- [x] Z
+- [x] Manacher
 - [ ] Duval
-- [ ] Haszowanie
+- [x] Haszowanie (T)
 - [ ] Reverse Burrows-Wheeler
-- [ ] Aho
-- [ ] Tablica sufiksowa
+- [x] Aho (T)
+- [x] Tablica sufiksowa
 - [ ] Liniowa tablica sufiksowa
 - [ ] Substringi cykliczne
 - [ ] Drzewo palindromów
 - [ ] Automat sufiksowy
-- [ ] Drzewo sufiksowe
+- [x] Drzewo sufiksowe (T)
 - [ ] Wildcard matching
 - [ ] Znajdowanie przedziału wystąpień w tablicy sufiksowej
 - [ ] Inty zamiast stringów
