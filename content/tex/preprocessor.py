@@ -285,7 +285,7 @@ def main():
         elif language == "rawpy":
             processraw(caption, instream, outstream, 'Python')
         elif language == "make":
-            processraw(caption, instream, outstream, 'Python')
+            processraw(caption, instream, outstream, 'make')
         else:
             raise ValueError("Unknown language: " + str(language))
     except (ValueError, getopt.GetoptError, IOError) as err:
