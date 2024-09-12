@@ -137,7 +137,7 @@ Grafy
 - [ ] Max matching Tutte
 - [ ] Online SCC
 - [ ] Reroot DP
-- [ ] Twierdzenie BEST
+- [x] Twierdzenie BEST
 
 Geometria
 - [ ] Zdecydować postępowanie co do templatów i doubli
