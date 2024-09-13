@@ -62,7 +62,7 @@ Matma
 - [ ] Silnie i odwrotności
 - [ ] ModMul double
 - [ ] Barret
-- [ ] Pierwiastek mod
+- [x] Pierwiastek mod
 - [ ] Ile ax + by <= s
 - [x] Floor sum
 - [x] Mod sum (T)
