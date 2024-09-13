@@ -72,8 +72,8 @@ Matma
 - [x] Miller rabin
 - [x] Pollard rho
 - [ ] Ułamek między a i b o najmniejszym mian.
-- [ ] Rozszerzony euklides
-- [ ] CRT
+- [x] Rozszerzony euklides (T)
+- [x] CRT (T)
 - [ ] Min mod linear, first mod linear
 - [ ] Ciąg debruijna
 - [ ] Nim product
