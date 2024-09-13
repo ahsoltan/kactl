@@ -9,12 +9,11 @@
  */
 #pragma once
 
-typedef unsigned long long ull;
-ull modmul(ull a, ull b, ull M) {
-  return (__uint128_t)a * b % M;
+ll modmul(ll a, ll b, ll M) {
+  return (__int128)a * b % M;
 }
-ull modpow(ull b, ull e, ull mod) {
-  ull ans = 1;
+ll modpow(ll b, ll e, ll mod) {
+  ll ans = 1;
   for (; e; b = modmul(b, b, mod), e /= 2)
     if (e & 1) ans = modmul(ans, b, mod);
   return ans;

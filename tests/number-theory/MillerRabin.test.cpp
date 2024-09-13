@@ -32,7 +32,7 @@ int main() {
   int q;
   cin >> q;
   while (q--) {
-    ull n;
+    ll n;
     cin >> n;
     cout << (isPrime(n) ? "Yes" : "No") << '\n';
   }

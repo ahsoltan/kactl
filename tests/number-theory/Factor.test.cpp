@@ -32,16 +32,16 @@ int main() {
   int q;
   cin >> q;
   while (q--) {
-    ull n;
+    ll n;
     cin >> n;
-    map<ull, int> cnt;
+    map<ll, int> cnt;
     factor(n, cnt);
-    vector<ull> f;
+    vector<ll> f;
     for (auto [x, y] : cnt) {
       f.insert(f.end(), y, x);
     }
     cout << ssize(f);
-    for (ull x : f) cout << ' ' << x;
+    for (ll x : f) cout << ' ' << x;
     cout << '\n';
   }
 }

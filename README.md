@@ -69,8 +69,8 @@ Matma
 - [ ] Sito z bitsetem
 - [ ] Sumy prefiksowe funkcji multiplykatywnej
 - [ ] Zliczanie/Suma liczb pierwszych
-- [ ] Miller rabin
-- [ ] Pollard rho
+- [x] Miller rabin
+- [x] Pollard rho
 - [ ] Ułamek między a i b o najmniejszym mian.
 - [ ] Rozszerzony euklides
 - [ ] CRT

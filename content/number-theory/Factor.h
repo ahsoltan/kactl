@@ -50,9 +50,9 @@
 #include "ModMulLL.h"
 #include "MillerRabin.h"
 
-ull pollard(ull n) {
-  ull x = 0, y = 0, t = 30, prd = 2, i = 1, q;
-  auto f = [&](ull x) { return modmul(x, x, n) + i; };
+ll pollard(ll n) {
+  ll x = 0, y = 0, t = 30, prd = 2, i = 1, q;
+  auto f = [&](ll x) { return modmul(x, x, n) + i; };
   while (t++ % 40 || __gcd(prd, n) == 1) {
     if (x == y) x = ++i, y = f(x);
     if ((q = modmul(prd, max(x,y) - min(x,y), n))) prd = q;
@@ -60,9 +60,9 @@ ull pollard(ull n) {
   }
   return __gcd(prd, n);
 }
-void factor(ull n, map<ull, int>& cnt) {
+void factor(ll n, map<ll, int>& cnt) {
   if (n == 1) return;
   if (isPrime(n)) { cnt[n]++; return; }
-  ull x = pollard(n);
+  ll x = pollard(n);
   factor(x, cnt); factor(n / x, cnt);
 }
