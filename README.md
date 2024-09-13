@@ -7,7 +7,6 @@ Do naprawienia w KACTL
 - Zredagować ściągi, pewnie wywalić większość
 - Naprawić spacing po spisie treści i w ściągach
 - Zmergować algebrę na doublach i mintach przez szablony
-- Wywalić ull z number-theory
 - Generalnie prawie wszystko modulo powinno być na mintach
 
 Przenieść z acmlib
@@ -36,7 +35,7 @@ Do weryfikacji w KACTL
 - [ ] Mathematics
 - [ ] Data structures
 - [ ] Numerical
-- [ ] Number theory
+- [x] Number theory
 - [ ] Combinatorial
 - [ ] Graph
 - [ ] Geometry
@@ -89,7 +88,7 @@ Matma
 - [ ] Simpson
 - [ ] Adaptive simpson
 - [ ] Simplex
-- [ ] Binsearch na ułamkach
+- [x] Binsearch na ułamkach (T)
 - [x] Logarytm dyskretny
 - [ ] Generator mod
 - [ ] Sploty AND, OR, XOR
@@ -100,7 +99,7 @@ Matma
 - [ ] Rozwiązania równania Pella
 - [ ] Sumy potęgowe
 - [ ] Generowanie trójek pitagorejskich
-- [ ] Przedziały równości dzielenia floor/ceil
+- [x] Przedziały równości dzielenia floor/ceil (T*)
 - [ ] XOR basis
 - [ ] Mnożniki lagrange'a
 
