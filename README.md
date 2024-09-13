@@ -66,7 +66,7 @@ Matma
 - [ ] Ile ax + by <= s
 - [x] Floor sum
 - [x] Mod sum (T)
-- [ ] Sito z bitsetem
+- [x] Sito z bitsetem
 - [ ] Sumy prefiksowe funkcji multiplykatywnej
 - [ ] Zliczanie/Suma liczb pierwszych
 - [x] Miller rabin
