@@ -52,7 +52,7 @@
 
 ll pollard(ll n) {
   ll x = 0, y = 0, t = 30, prd = 2, i = 1, q;
-  auto f = [&](ll x) { return modmul(x, x, n) + i; };
+  auto f = [&](ll k) { return modmul(k, k, n) + i; };
   while (t++ % 40 || __gcd(prd, n) == 1) {
     if (x == y) x = ++i, y = f(x);
     if ((q = modmul(prd, max(x,y) - min(x,y), n))) prd = q;
