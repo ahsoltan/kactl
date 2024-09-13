@@ -44,11 +44,11 @@ Struktury danych
 - [x] gp_hash_table
 - [x] ordered_set (T)
 - [x] Line container
-- [ ] Sparse table
+- [x] Sparse table
 - [ ] Lazy segtree
 - [ ] Persistent segtree
 - [ ] Treap
-- [ ] Fenwick
+- [x] Fenwick
 - [ ] Fenwick 2D
 - [ ] Drzewo lichao
 - [ ] Persistent treap
