@@ -11,7 +11,6 @@ Do naprawienia w KACTL
 
 Przenieść z acmlib
 - EulerWalk zmieniony
-- PrimitiveRoot
 - Duval
 
 Testy do przeniesienia
@@ -25,7 +24,6 @@ Testy do przeniesienia
 │   └── SCC.test.cpp
 ├── math
 │   ├── FWHT.test.cpp
-│   ├── PrimitiveRoot.test.cpp
 └── string
     ├── Duval.test.cpp
 ```
@@ -79,18 +77,17 @@ Matma
 - [ ] Przecięcie matroidów
 - [ ] Macierz (pow, mnożenie)
 - [ ] Odwrotność macierzy (eliminacja - odwr oddzielnie) (rząd - wyznacznik)
-- [ ] Twierdzenie Kirchoffa
 - [ ] Sherman Morrison
 - [ ] Operacje na wielomianach
-- [ ] NTT
-- [ ] NTT Garner
+- [x] NTT
+- [x] NTT Garner
 - [ ] Berlekamp-Massey
 - [ ] Simpson
 - [ ] Adaptive simpson
 - [ ] Simplex
 - [x] Binsearch na ułamkach (T)
 - [x] Logarytm dyskretny
-- [ ] Generator mod
+- [x] Generator mod
 - [ ] Sploty AND, OR, XOR
 - [ ] Splot SUBSET
 - [ ] Interpolacja Lagrange'a dla jednego punktu z 0...n
@@ -139,6 +136,7 @@ Grafy
 - [ ] Online SCC
 - [ ] Reroot DP
 - [x] Twierdzenie BEST
+- [x] Twierdzenie Kirchoffa
 
 Geometria
 - [ ] Zdecydować postępowanie co do templatów i doubli
@@ -197,7 +195,7 @@ Teksty
 - [x] Drzewo sufiksowe (T)
 - [ ] Wildcard matching
 - [ ] Znajdowanie przedziału wystąpień w tablicy sufiksowej
-- [ ] Inty zamiast stringów
+- [ ] Inty zamiast stringów?
 
 Inne
 - [ ] Circular LCS
