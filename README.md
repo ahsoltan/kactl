@@ -47,9 +47,9 @@ Struktury danych
 - [x] Sparse table
 - [x] Lazy segtree (T)
 - [ ] Persistent segtree
-- [ ] Treap
+- [x] Treap (T)
 - [x] Fenwick
-- [ ] Fenwick 2D
+- [x] Fenwick 2D (T)
 - [ ] Drzewo lichao
 - [ ] Persistent treap
 - [ ] Wavelet tree
