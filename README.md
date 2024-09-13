@@ -45,7 +45,7 @@ Struktury danych
 - [x] ordered_set (T)
 - [x] Line container
 - [x] Sparse table
-- [ ] Lazy segtree
+- [x] Lazy segtree (T)
 - [ ] Persistent segtree
 - [ ] Treap
 - [x] Fenwick
@@ -53,6 +53,8 @@ Struktury danych
 - [ ] Drzewo lichao
 - [ ] Persistent treap
 - [ ] Wavelet tree
+- [x] DSU z rollbackami (T)
+- [x] Mo on array, on tree (T)
 
 Matma
 - [x] Mint
@@ -124,7 +126,6 @@ Grafy
 - [ ] Kolorowanie krawędzi w D+1
 - [ ] DMST
 - [ ] Link-cut tree
-- [ ] DSU z rollbackami
 - [ ] Dynamic connectivity
 - [ ] Twierdzenie Koniga
 - [ ] Ściany grafu planarnego
