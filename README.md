@@ -58,12 +58,14 @@ Struktury danych
 - [ ] Wavelet tree
 
 Matma
-- [ ] Mint
+- [x] Mint
 - [ ] Silnie i odwrotności
 - [ ] ModMul double
 - [ ] Barret
 - [ ] Pierwiastek mod
-- [ ] Ile ax + by <= s, floor sum, mod sum
+- [ ] Ile ax + by <= s
+- [x] Floor sum
+- [x] Mod sum (T)
 - [ ] Sito z bitsetem
 - [ ] Sumy prefiksowe funkcji multiplykatywnej
 - [ ] Zliczanie/Suma liczb pierwszych
@@ -88,7 +90,7 @@ Matma
 - [ ] Adaptive simpson
 - [ ] Simplex
 - [ ] Binsearch na ułamkach
-- [ ] Logarytm dyskretny
+- [x] Logarytm dyskretny
 - [ ] Generator mod
 - [ ] Sploty AND, OR, XOR
 - [ ] Splot SUBSET
@@ -221,3 +223,4 @@ Inne
 - https://github.com/tonowak/acmlib
 - https://github.com/maspypy/library
 - https://github.com/Stonefeang/librewoosh
+- https://github.com/KacperTopolski/kactl
