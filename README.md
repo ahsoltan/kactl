@@ -31,7 +31,7 @@ Testy do przeniesienia
 Do weryfikacji w KACTL
 - [x] Contest
 - [ ] Mathematics
-- [ ] Data structures
+- [x] Data structures
 - [ ] Numerical
 - [x] Number theory
 - [ ] Combinatorial
