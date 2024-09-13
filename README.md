@@ -41,9 +41,9 @@ Do weryfikacji w KACTL
 - [ ] Various
 
 Struktury danych
-- [ ] gp_hash_table
-- [ ] ordered_set
-- [ ] Line container
+- [x] gp_hash_table
+- [x] ordered_set (T)
+- [x] Line container
 - [ ] Sparse table
 - [ ] Lazy segtree
 - [ ] Persistent segtree
