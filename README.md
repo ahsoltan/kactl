@@ -50,11 +50,12 @@ Struktury danych
 - [x] Treap (T)
 - [x] Fenwick
 - [x] Fenwick 2D (T)
-- [ ] Drzewo lichao
+- [ ] Drzewo lichao (z dodawaniem i maxowaniem)
 - [ ] Persistent treap
 - [ ] Wavelet tree
 - [x] DSU z rollbackami (T)
 - [x] Mo on array, on tree (T)
+- [ ] Segment tree beats
 
 Matma
 - [x] Mint
@@ -80,7 +81,7 @@ Matma
 - [ ] Macierz (pow, mnożenie)
 - [ ] Odwrotność macierzy (eliminacja - odwr oddzielnie) (rząd - wyznacznik)
 - [ ] Sherman Morrison
-- [ ] Operacje na wielomianach
+- [ ] Operacje na wielomianach (inv, exp, pow, log, interp, eval, chirpz)
 - [x] NTT
 - [x] NTT Garner
 - [ ] Berlekamp-Massey
@@ -101,6 +102,9 @@ Matma
 - [x] Przedziały równości dzielenia floor/ceil (T*)
 - [ ] XOR basis
 - [ ] Mnożniki lagrange'a
+- [ ] Wielomian charakterystyczny (black box z berlekampem)
+- [ ] Kod graya i odwrotność
+- [ ] Schreier-Sims
 
 Grafy
 - [ ] DSU
@@ -134,10 +138,15 @@ Grafy
 - [ ] Trójkąty
 - [ ] 5-kolorowanie grafu planarnego
 - [ ] Max matching Tutte
-- [ ] Online SCC
+- [ ] Incremental SCC
 - [ ] Reroot DP
 - [x] Twierdzenie BEST
 - [x] Twierdzenie Kirchoffa
+- [ ] Liczba chromatyczna
+- [ ] Kolorwanie krawędzi grafu dwudzielnego w D
+- [ ] K-ta najkrótsza ścieżka
+- [ ] Incremental bipartite matching
+- [ ] SPFA smu
 
 Geometria
 - [ ] Zdecydować postępowanie co do templatów i doubli
@@ -190,13 +199,15 @@ Teksty
 - [x] Aho (T)
 - [x] Tablica sufiksowa
 - [ ] Liniowa tablica sufiksowa
-- [ ] Substringi cykliczne
+- [ ] Substringi cykliczne (Main-Lorentz)
 - [ ] Drzewo palindromów
 - [ ] Automat sufiksowy
 - [x] Drzewo sufiksowe (T)
 - [ ] Wildcard matching
 - [ ] Znajdowanie przedziału wystąpień w tablicy sufiksowej
 - [ ] Inty zamiast stringów?
+- [ ] LCS miedzy wszystkimi substringami
+- [ ] Monge (range LIS query)
 
 Inne
 - [ ] Circular LCS
@@ -208,6 +219,7 @@ Inne
 - [ ] Pragmy
 - [ ] Subset sum dynamic bitset
 - [ ] CHT
+- [ ] Subset sum modulo m w O(m log m)
 
 Źródła
 - https://github.com/ecnerwala/cp-book/
