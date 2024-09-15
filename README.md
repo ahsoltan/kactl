@@ -129,7 +129,7 @@ Grafy
 - [ ] Drzewo dominatorów
 - [ ] Kolorowanie krawędzi w D+1
 - [ ] DMST
-- [ ] Link-cut tree
+- [ ] Link-cut tree z różnymi rzeczami
 - [ ] Dynamic connectivity
 - [ ] Twierdzenie Koniga
 - [ ] Ściany grafu planarnego
@@ -208,6 +208,7 @@ Teksty
 - [ ] Inty zamiast stringów?
 - [ ] LCS miedzy wszystkimi substringami
 - [ ] Monge (range LIS query)
+- [ ] Szybkie modulo 2^61-1
 
 Inne
 - [ ] Circular LCS
@@ -220,6 +221,7 @@ Inne
 - [ ] Subset sum dynamic bitset
 - [ ] CHT
 - [ ] Subset sum modulo m w O(m log m)
+- [ ] Dobre ściągi, w szczególności UJ, UW1, stare UW, bardzo stare UW
 
 Źródła
 - https://github.com/ecnerwala/cp-book/
