@@ -122,7 +122,7 @@ Grafy
 - [ ] Gomory-Hu
 - [ ] MCMF
 - [ ] Hungarian
-- [ ] General matching blossom
+- [x] General matching blossom
 - [ ] General weighted matching
 - [ ] Hopcroft-Karp
 - [ ] Chordal Graph Recognition
