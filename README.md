@@ -172,7 +172,7 @@ Geometria
 - [x] Okrąg opisany na trójkącie (T)
 - [x] Min enclosing circle (T)
 - [x] Najbliższa para punktów
-- [x] Delaunay triangulation (T)
+- [x] Delaunay triangulation (T*)
 - [x] Manhattan MST
 - [x] Punkt 3D (T)
 - [x] Otoczka 3D O(n^2) (T)
