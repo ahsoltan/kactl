@@ -38,7 +38,7 @@ Do weryfikacji w KACTL
 - [ ] Graph
 - [ ] Geometry
 - [ ] Strings
-- [ ] Various
+- [x] Various
 
 Struktury danych
 - [x] gp_hash_table
@@ -61,7 +61,7 @@ Matma
 - [x] Mint
 - [ ] Silnie i odwrotności
 - [ ] ModMul double
-- [ ] Barret
+- [x] Barret (T)
 - [x] Pierwiastek mod
 - [ ] Ile ax + by <= s
 - [x] Floor sum
@@ -213,10 +213,10 @@ Teksty
 Inne
 - [ ] Circular LCS
 - [ ] SMAWK
-- [ ] Fast IO
+- [x] Fast IO (T)
 - [ ] Python, decimal
-- [ ] Divide and conquer DP
-- [ ] Knuth DP
+- [x] Divide and conquer DP (T)
+- [x] Knuth DP (T)
 - [ ] Pragmy
 - [ ] Subset sum dynamic bitset
 - [ ] CHT
