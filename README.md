@@ -115,20 +115,20 @@ Grafy
 - [ ] Centroidy
 - [ ] Cykl eulera
 - [ ] SCC
-- [ ] 2-SAT 
+- [x] 2-SAT (T*)
 - [ ] Mosty, cutpointy
-- [ ] Maksymalne kliki
-- [ ] Dinic
-- [ ] Gomory-Hu
-- [ ] MCMF
+- [x] Maksymalne kliki (T)
+- [x] Dinic (T)
+- [x] Gomory-Hu (T)
+- [x] MCMF (T)
 - [x] Hungarian
 - [x] General matching blossom
 - [ ] General weighted matching
-- [ ] Hopcroft-Karp
+- [x] Hopcroft-Karp
 - [ ] Chordal Graph Recognition
 - [ ] Drzewo dominatorów
-- [ ] Kolorowanie krawędzi w D+1
-- [ ] DMST
+- [x] Kolorowanie krawędzi w D+1 (T)
+- [x] DMST
 - [ ] Link-cut tree z różnymi rzeczami
 - [ ] Dynamic connectivity
 - [ ] Twierdzenie Koniga
