@@ -134,7 +134,7 @@ Grafy
 - [ ] Twierdzenie Koniga
 - [ ] Ściany grafu planarnego
 - [ ] Test planarności grafu
-- [ ] Największa klika
+- [x] Największa klika
 - [ ] Trójkąty
 - [ ] 5-kolorowanie grafu planarnego
 - [ ] Max matching Tutte
