@@ -121,7 +121,7 @@ Grafy
 - [ ] Dinic
 - [ ] Gomory-Hu
 - [ ] MCMF
-- [ ] Hungarian
+- [x] Hungarian
 - [x] General matching blossom
 - [ ] General weighted matching
 - [ ] Hopcroft-Karp
