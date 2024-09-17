@@ -74,7 +74,7 @@ Matma
 - [ ] Ułamek między a i b o najmniejszym mian.
 - [x] Rozszerzony euklides (T)
 - [x] CRT (T)
-- [ ] Min mod linear, first mod linear
+- [x] Min mod linear, first mod linear (T*)
 - [ ] Ciąg debruijna
 - [ ] Nim product
 - [ ] Przecięcie matroidów
