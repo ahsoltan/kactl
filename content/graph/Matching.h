@@ -2,7 +2,7 @@
  * Author: Adam Soltan
  * Description: Fast biparite matching algorithm. Graph $g$ should be a list
  * of neighbors of the left partition. Returns the match for every left vertex.
- * Time: O(m \sqrt{n})
+ * Time: O(E \sqrt{V})
  */
 #pragma once
 

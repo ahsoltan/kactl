@@ -142,7 +142,7 @@ Grafy
 - [ ] Reroot DP
 - [x] Twierdzenie BEST
 - [x] Twierdzenie Kirchoffa
-- [ ] Liczba chromatyczna
+- [ ] Liczba/wielomian chromatyczna
 - [ ] Kolorwanie krawędzi grafu dwudzielnego w D
 - [ ] K-ta najkrótsza ścieżka
 - [ ] Incremental bipartite matching
