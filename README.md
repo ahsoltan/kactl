@@ -11,7 +11,6 @@ Do naprawienia w KACTL
 
 Przenieść z acmlib
 - EulerWalk zmieniony
-- Duval
 
 Testy do przeniesienia
 ```
@@ -24,8 +23,6 @@ Testy do przeniesienia
 │   └── SCC.test.cpp
 ├── math
 │   ├── FWHT.test.cpp
-└── string
-    ├── Duval.test.cpp
 ```
 
 Do weryfikacji w KACTL
@@ -193,7 +190,7 @@ Teksty
 - [x] KMP (T)
 - [x] Z
 - [x] Manacher
-- [ ] Duval
+- [x] Duval
 - [x] Haszowanie (T)
 - [ ] Reverse Burrows-Wheeler
 - [x] Aho (T)
