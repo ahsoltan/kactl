@@ -136,7 +136,7 @@ Grafy
 - [x] Twierdzenie Kirchoffa
 - [ ] Liczba/wielomian chromatyczna
 - [ ] Kolorwanie krawędzi grafu dwudzielnego w D
-- [ ] K-ta najkrótsza ścieżka
+- [x] K-ta najkrótsza ścieżka
 - [ ] Incremental bipartite matching
 - [ ] SPFA smu
 
