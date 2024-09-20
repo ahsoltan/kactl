@@ -9,17 +9,12 @@ Do naprawienia w KACTL
 - Zmergować algebrę na doublach i mintach przez szablony
 - Generalnie prawie wszystko modulo powinno być na mintach
 
-Przenieść z acmlib
-- EulerWalk zmieniony
-
 Testy do przeniesienia
 ```
 .
 ├── geometry
 │   └── HullDiameter.test.cpp
 ├── graph
-│   ├── EulerWalk1.test.cpp
-│   ├── EulerWalk2.test.cpp
 │   └── SCC.test.cpp
 ├── math
 │   ├── FWHT.test.cpp
@@ -110,7 +105,7 @@ Grafy
 - [ ] LCA rmq z kompresją
 - [ ] HLD
 - [ ] Centroidy
-- [ ] Cykl eulera
+- [x] Cykl eulera
 - [ ] SCC
 - [x] 2-SAT (T*)
 - [ ] Mosty, cutpointy
