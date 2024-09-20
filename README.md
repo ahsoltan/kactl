@@ -94,7 +94,7 @@ Matma
 - [x] Przedziały równości dzielenia floor/ceil (T*)
 - [ ] XOR basis
 - [ ] Mnożniki lagrange'a
-- [ ] Wielomian charakterystyczny (black box z berlekampem)
+- [x] Wyznacznik macierzy (black box z berlekampem)
 - [ ] Kod graya i odwrotność
 - [ ] Schreier-Sims
 
