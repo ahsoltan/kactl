@@ -76,7 +76,7 @@ Matma
 - [ ] Operacje na wielomianach (inv, exp, pow, log, interp, eval, chirpz)
 - [x] NTT
 - [x] NTT Garner
-- [ ] Berlekamp-Massey
+- [x] Berlekamp-Massey
 - [ ] Simpson
 - [ ] Adaptive simpson
 - [ ] Simplex
