@@ -153,7 +153,7 @@ Geometria
 - [x] Najdalsze punkty na otoczce (T)
 - [x] Styczne do otoczki (T)
 - [x] Przecięcie otoczki z prostą (T)
-- [ ] Przecięcie półpłaszczyzn
+- [x] Przecięcie półpłaszczyzn (T)
 - [ ] Online przecięcie półpłaszczyzn
 - [x] Suma wielokątów (T)
 - [ ] Okrąg
