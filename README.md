@@ -2,6 +2,7 @@
 
 Inne
 - Cachowanie testów (`GITHUB_TOKEN`) działa?
+- https://github.com/kth-competitive-programming/kactl/issues/63
 
 Do naprawienia w KACTL
 - Zredagować ściągi, pewnie wywalić większość
@@ -69,11 +70,11 @@ Matma
 - [x] Min mod linear, first mod linear (T*)
 - [ ] Ciąg debruijna
 - [ ] Nim product
-- [ ] Przecięcie matroidów
+- [ ] Przecięcie matroidów - https://github.com/kth-competitive-programming/kactl/pull/172
 - [ ] Macierz (pow, mnożenie)
 - [ ] Odwrotność macierzy (eliminacja - odwr oddzielnie) (rząd - wyznacznik)
 - [ ] Sherman Morrison
-- [ ] Operacje na wielomianach (inv, exp, pow, log, interp, eval, chirpz)
+- [ ] Operacje na wielomianach (inv, exp, pow, log, interp, eval, chirpz) - https://github.com/kth-competitive-programming/kactl/pull/87
 - [x] NTT
 - [x] NTT Garner
 - [x] Berlekamp-Massey
@@ -180,7 +181,8 @@ Geometria
 - [ ] Konwersja między postaciami prostych
 - [ ] Test czy odcinek jest w środku wielokąta
 - [ ] Zamiatanie cykliczne półprostą
-- [ ] Convex poly periodic min comp
+- [ ] Convex poly periodic min comp (zamienic z hull tangents, dodac min/max dot)
+- https://github.com/kth-competitive-programming/kactl/issues/137
 
 Teksty
 - [x] KMP (T)
