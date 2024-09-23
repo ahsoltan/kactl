@@ -77,13 +77,13 @@ Matma
 - [x] NTT
 - [x] NTT Garner
 - [x] Berlekamp-Massey
-- [ ] Simpson
-- [ ] Adaptive simpson
-- [ ] Simplex
+- [x] Simpson (T)
+- [x] Adaptive simpson (T)
+- [x] Simplex (T)
 - [x] Binsearch na ułamkach (T)
 - [x] Logarytm dyskretny
 - [x] Generator mod
-- [ ] Sploty AND, OR, XOR
+- [x] Sploty AND, OR, XOR (T)
 - [ ] Splot SUBSET
 - [ ] Interpolacja Lagrange'a dla jednego punktu z 0...n
 - [ ] Rozwiązywanie niekwadratowego SLAE
@@ -180,6 +180,7 @@ Geometria
 - [ ] Konwersja między postaciami prostych
 - [ ] Test czy odcinek jest w środku wielokąta
 - [ ] Zamiatanie cykliczne półprostą
+- [ ] Convex poly periodic min comp
 
 Teksty
 - [x] KMP (T)
