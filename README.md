@@ -70,7 +70,7 @@ Matma
 - [x] Min mod linear, first mod linear (T*)
 - [ ] Ciąg debruijna
 - [x] Nim product
-- [ ] Przecięcie matroidów - https://github.com/kth-competitive-programming/kactl/pull/172
+- [x] Przecięcie matroidów (T)
 - [ ] Macierz (pow, mnożenie)
 - [ ] Odwrotność macierzy (eliminacja - odwr oddzielnie) (rząd - wyznacznik)
 - [ ] Sherman Morrison
