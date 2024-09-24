@@ -68,7 +68,7 @@ Matma
 - [x] Rozszerzony euklides (T)
 - [x] CRT (T)
 - [x] Min mod linear, first mod linear (T*)
-- [ ] Ciąg debruijna
+- [x] Ciąg debruijna (T)
 - [x] Nim product
 - [x] Przecięcie matroidów (T)
 - [ ] Macierz (pow, mnożenie)
