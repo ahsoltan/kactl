@@ -125,7 +125,7 @@ Grafy
 - [ ] Link-cut tree z różnymi rzeczami
 - [ ] Dynamic connectivity
 - [ ] Twierdzenie Koniga
-- [ ] Ściany grafu planarnego
+- [x] Ściany grafu planarnego (T)
 - [ ] Test planarności grafu
 - [x] Największa klika
 - [ ] Trójkąty
@@ -181,8 +181,9 @@ Geometria
 - [ ] Konwersja między postaciami prostych
 - [ ] Test czy odcinek jest w środku wielokąta
 - [ ] Zamiatanie cykliczne półprostą
-- [ ] Convex poly periodic min comp (zamienic z hull tangents, dodac min/max dot)
+- [ ] Convex poly periodic min comp (zamienic z hull tangents, dodac min/max dot) (maspy)
 - https://github.com/kth-competitive-programming/kactl/issues/137
+- [ ] Jakiś point location albo przynajmniej tutorial lol
 
 Teksty
 - [x] KMP (T)
