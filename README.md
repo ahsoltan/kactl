@@ -69,7 +69,7 @@ Matma
 - [x] CRT (T)
 - [x] Min mod linear, first mod linear (T*)
 - [ ] Ciąg debruijna
-- [ ] Nim product
+- [x] Nim product
 - [ ] Przecięcie matroidów - https://github.com/kth-competitive-programming/kactl/pull/172
 - [ ] Macierz (pow, mnożenie)
 - [ ] Odwrotność macierzy (eliminacja - odwr oddzielnie) (rząd - wyznacznik)
@@ -232,3 +232,4 @@ Inne
 - https://github.com/maspypy/library
 - https://github.com/Stonefeang/librewoosh
 - https://github.com/KacperTopolski/kactl
+- https://github.com/ecnerwala/icpc-book
