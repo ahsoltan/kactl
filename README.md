@@ -3,6 +3,7 @@
 Inne
 - Cachowanie testów (`GITHUB_TOKEN`) działa?
 - https://github.com/kth-competitive-programming/kactl/issues/63
+- Cleanup weighted blossom?
 
 Do naprawienia w KACTL
 - Zredagować ściągi, pewnie wywalić większość
@@ -98,6 +99,7 @@ Matma
 - [x] Wyznacznik macierzy (black box z berlekampem)
 - [ ] Kod graya i odwrotność
 - [ ] Schreier-Sims
+- [ ] Twierdzenie pentagonalne eulera
 
 Grafy
 - [ ] DSU
