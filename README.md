@@ -116,7 +116,7 @@ Grafy
 - [x] MCMF (T)
 - [x] Hungarian
 - [x] General matching blossom
-- [ ] General weighted matching
+- [x] General weighted matching
 - [x] Hopcroft-Karp
 - [ ] Chordal Graph Recognition
 - [ ] Drzewo dominatorów
