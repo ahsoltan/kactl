@@ -121,7 +121,7 @@ Grafy
 - [x] General weighted matching
 - [x] Hopcroft-Karp
 - [ ] Chordal Graph Recognition
-- [ ] Drzewo dominatorów
+- [x] Drzewo dominatorów
 - [x] Kolorowanie krawędzi w D+1 (T)
 - [x] DMST
 - [ ] Link-cut tree z różnymi rzeczami
