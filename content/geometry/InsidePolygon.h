@@ -16,7 +16,7 @@
 
 #include "Point.h"
 #include "OnSegment.h"
-#include "SegmentDistance.h"
+#include "SegDist.h"
 
 template<class P>
 bool inPolygon(vector<P> &p, P a, bool strict = true) {
