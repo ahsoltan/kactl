@@ -201,7 +201,7 @@ Teksty
 - [ ] Drzewo palindromów
 - [ ] Automat sufiksowy
 - [x] Drzewo sufiksowe (T)
-- [ ] Wildcard matching
+- [x] Wildcard matching
 - [ ] Znajdowanie przedziału wystąpień w tablicy sufiksowej
 - [ ] Inty zamiast stringów?
 - [ ] LCS miedzy wszystkimi substringami
