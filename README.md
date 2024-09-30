@@ -57,12 +57,10 @@ Matma
 - [ ] ModMul double
 - [x] Barret (T)
 - [x] Pierwiastek mod
-- [ ] Ile ax + by <= s
 - [x] Floor sum
 - [x] Mod sum (T)
 - [x] Sito z bitsetem
-- [ ] Sumy prefiksowe funkcji multiplykatywnej
-- [ ] Zliczanie/Suma liczb pierwszych
+- [x] Sumy prefiksowe funkcji multiplykatywnej
 - [x] Miller rabin
 - [x] Pollard rho
 - [ ] Ułamek między a i b o najmniejszym mian.
