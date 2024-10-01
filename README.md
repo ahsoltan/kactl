@@ -1,17 +1,17 @@
 # kactl
+![verify](https://github.com/ahsoltan/kactl/actions/workflows/verify.yml/badge.svg)
 
-Inne
+Do zrobienia
 - Cachowanie testów (`GITHUB_TOKEN`) działa?
 - https://github.com/kth-competitive-programming/kactl/issues/63
 - Cleanup weighted blossom?
-
-Do naprawienia w KACTL
+- https://github.com/kth-competitive-programming/kactl/issues/137
 - Zredagować ściągi, pewnie wywalić większość
 - Naprawić spacing po spisie treści i w ściągach
 - Zmergować algebrę na doublach i mintach przez szablony
 - Generalnie prawie wszystko modulo powinno być na mintach
 
-Testy do przeniesienia
+Testy do przeniesienia z acmlib
 ```
 .
 ├── geometry
@@ -23,201 +23,215 @@ Testy do przeniesienia
 ```
 
 Do weryfikacji w KACTL
-- [x] Contest
-- [ ] Mathematics
-- [x] Data structures
-- [ ] Numerical
-- [x] Number theory
-- [ ] Combinatorial
-- [ ] Graph
-- [ ] Geometry
-- [ ] Strings
-- [x] Various
+| Stan | Nazwa |
+|:----:|-------|
+| :heavy_check_mark: | Contest |
+| :x: | Mathematics |
+| :heavy_check_mark: | Data structures |
+| :x: | Numerical |
+| :heavy_check_mark: | Number theory |
+| :x: | Combinatorial |
+| :x: | Graph |
+| :x: | Geometry |
+| :x: | Strings |
+| :heavy_check_mark: | Various |
 
 Struktury danych
-- [x] gp_hash_table
-- [x] ordered_set (T)
-- [x] Line container
-- [x] Sparse table
-- [x] Lazy segtree (T)
-- [ ] Persistent segtree
-- [x] Treap (T)
-- [x] Fenwick
-- [x] Fenwick 2D (T)
-- [ ] Drzewo lichao (z dodawaniem i maxowaniem)
-- [ ] Persistent treap
-- [ ] Wavelet tree
-- [x] DSU z rollbackami (T)
-- [x] Mo on array, on tree (T)
-- [ ] Segment tree beats
+| Stan | Nazwa |
+|:----:|-------|
+| :heavy_check_mark: | gp_hash_table |
+| :warning: | ordered_set |
+| :heavy_check_mark: | Line container |
+| :heavy_check_mark: | Sparse table |
+| :warning: | Lazy segtree |
+| :x: | Persistent segtree |
+| :warning: | Treap |
+| :heavy_check_mark: | Fenwick |
+| :warning: | Fenwick 2D |
+| :x: | Drzewo lichao (z dodawaniem i maxowaniem) |
+| :x: | Persistent treap |
+| :x: | Wavelet tree |
+| :warning: | DSU z rollbackami |
+| :warning: | Mo on array, on tree |
+| :x: | Segment tree beats |
 
 Matma
-- [x] Mint
-- [ ] Silnie i odwrotności
-- [ ] ModMul double
-- [x] Barret (T)
-- [x] Pierwiastek mod
-- [x] Floor sum
-- [x] Mod sum (T)
-- [x] Sito z bitsetem
-- [x] Sumy prefiksowe funkcji multiplykatywnej
-- [x] Miller rabin
-- [x] Pollard rho
-- [ ] Ułamek między a i b o najmniejszym mian.
-- [x] Rozszerzony euklides (T)
-- [x] CRT (T)
-- [x] Min mod linear, first mod linear (T*)
-- [x] Ciąg debruijna (T)
-- [x] Nim product
-- [x] Przecięcie matroidów (T)
-- [ ] Macierz (pow, mnożenie)
-- [ ] Odwrotność macierzy (eliminacja - odwr oddzielnie) (rząd - wyznacznik)
-- [ ] Sherman Morrison
-- [ ] Operacje na wielomianach (inv, exp, pow, log, interp, eval, chirpz) - https://github.com/kth-competitive-programming/kactl/pull/87
-- [x] NTT
-- [x] NTT Garner
-- [x] Berlekamp-Massey
-- [x] Simpson (T)
-- [x] Adaptive simpson (T)
-- [x] Simplex (T)
-- [x] Binsearch na ułamkach (T)
-- [x] Logarytm dyskretny
-- [x] Generator mod
-- [x] Sploty AND, OR, XOR (T)
-- [ ] Splot SUBSET
-- [ ] Interpolacja Lagrange'a dla jednego punktu z 0...n
-- [ ] Rozwiązywanie niekwadratowego SLAE
-- [ ] Mobius i Phi
-- [ ] Rozwiązania równania Pella
-- [ ] Sumy potęgowe
-- [ ] Generowanie trójek pitagorejskich
-- [x] Przedziały równości dzielenia floor/ceil (T*)
-- [ ] XOR basis
-- [ ] Mnożniki lagrange'a
-- [x] Wyznacznik macierzy (black box z berlekampem)
-- [ ] Kod graya i odwrotność
-- [ ] Schreier-Sims
-- [ ] Twierdzenie pentagonalne eulera
+| Stan | Nazwa |
+|:----:|-------|
+| :heavy_check_mark: | Mint |
+| :x: | Silnie i odwrotności |
+| :x: | ModMul double |
+| :warning: | Barret |
+| :heavy_check_mark: | Pierwiastek mod |
+| :heavy_check_mark: | Floor sum |
+| :warning: | Mod sum |
+| :heavy_check_mark: | Sito z bitsetem |
+| :heavy_check_mark: | Sumy prefiksowe funkcji multiplykatywnej |
+| :heavy_check_mark: | Miller rabin |
+| :heavy_check_mark: | Pollard rho |
+| :x: | Ułamek między a i b o najmniejszym mian. |
+| :warning: | Rozszerzony euklides |
+| :warning: | CRT |
+| :warning: | Min mod linear, first mod linear |
+| :warning: | Ciąg debruijna |
+| :heavy_check_mark: | Nim product |
+| :warning: | Przecięcie matroidów |
+| :x: | Macierz (pow, mnożenie) |
+| :x: | Odwrotność macierzy (eliminacja - odwr oddzielnie) (rząd - wyznacznik) |
+| :x: | Sherman Morrison |
+| :x: | [Operacje na wielomianach](https://github.com/kth-competitive-programming/kactl/pull/87) (inv, exp, pow, log, interp, eval, chirpz) |
+| :heavy_check_mark: | NTT |
+| :heavy_check_mark: | NTT Garner |
+| :heavy_check_mark: | Berlekamp-Massey |
+| :warning: | Simpson |
+| :warning: | Adaptive simpson |
+| :warning: | Simplex |
+| :warning: | Binsearch na ułamkach |
+| :heavy_check_mark: | Logarytm dyskretny |
+| :heavy_check_mark: | Generator mod |
+| :warning: | Sploty AND, OR, XOR |
+| :x: | Splot SUBSET |
+| :x: | Interpolacja Lagrange'a dla jednego punktu z 0...n |
+| :x: | Rozwiązywanie niekwadratowego SLAE |
+| :x: | Mobius i Phi |
+| :x: | Rozwiązania równania Pella |
+| :x: | Sumy potęgowe |
+| :x: | Generowanie trójek pitagorejskich |
+| :warning: | Przedziały równości dzielenia floor/ceil |
+| :x: | XOR basis |
+| :x: | Mnożniki lagrange'a |
+| :heavy_check_mark: | Wyznacznik macierzy (black box z berlekampem) |
+| :x: | Kod graya i odwrotność |
+| :x: | Schreier-Sims |
+| :x: | Twierdzenie pentagonalne eulera |
 
 Grafy
-- [ ] DSU
-- [ ] Ujemny cykl
-- [ ] LCA skok
-- [ ] LCA rmq z kompresją
-- [ ] HLD
-- [ ] Centroidy
-- [x] Cykl eulera
-- [ ] SCC
-- [x] 2-SAT (T*)
-- [ ] Mosty, cutpointy
-- [x] Maksymalne kliki (T)
-- [x] Dinic (T)
-- [x] Gomory-Hu (T)
-- [x] MCMF (T)
-- [x] Hungarian
-- [x] General matching blossom
-- [x] General weighted matching
-- [x] Hopcroft-Karp
-- [ ] Chordal Graph Recognition
-- [x] Drzewo dominatorów
-- [x] Kolorowanie krawędzi w D+1 (T)
-- [x] DMST
-- [ ] Link-cut tree z różnymi rzeczami
-- [ ] Dynamic connectivity
-- [ ] Twierdzenie Koniga
-- [x] Ściany grafu planarnego (T)
-- [ ] Test planarności grafu
-- [x] Największa klika
-- [ ] Trójkąty
-- [ ] 5-kolorowanie grafu planarnego
-- [ ] Max matching Tutte
-- [ ] Incremental SCC
-- [ ] Reroot DP
-- [x] Twierdzenie BEST
-- [x] Twierdzenie Kirchoffa
-- [ ] Liczba/wielomian chromatyczna
-- [ ] Kolorwanie krawędzi grafu dwudzielnego w D
-- [x] K-ta najkrótsza ścieżka
-- [ ] Incremental bipartite matching
-- [ ] SPFA smu
+| Stan | Nazwa |
+|:----:|-------|
+| :x: | DSU |
+| :x: | Ujemny cykl |
+| :x: | LCA skok |
+| :x: | LCA rmq z kompresją |
+| :x: | HLD |
+| :x: | Centroidy |
+| :heavy_check_mark: | Cykl eulera |
+| :x: | SCC |
+| :warning: | 2-SAT |
+| :x: | Mosty, cutpointy |
+| :warning: | Maksymalne kliki |
+| :warning: | Dinic |
+| :warning: | Gomory-Hu |
+| :warning: | MCMF |
+| :heavy_check_mark: | Hungarian |
+| :heavy_check_mark: | General matching blossom |
+| :heavy_check_mark: | General weighted matching |
+| :heavy_check_mark: | Hopcroft-Karp |
+| :x: | Chordal Graph Recognition |
+| :heavy_check_mark: | Drzewo dominatorów |
+| :warning: | Kolorowanie krawędzi w D+1 |
+| :heavy_check_mark: | DMST |
+| :x: | Link-cut tree z różnymi rzeczami |
+| :x: | Dynamic connectivity |
+| :x: | Twierdzenie Koniga |
+| :warning: | Ściany grafu planarnego |
+| :x: | Test planarności grafu |
+| :heavy_check_mark: | Największa klika |
+| :x: | Trójkąty |
+| :x: | 5-kolorowanie grafu planarnego |
+| :x: | Max matching Tutte |
+| :x: | Incremental SCC |
+| :x: | Reroot DP |
+| :heavy_check_mark: | Twierdzenie BEST |
+| :heavy_check_mark: | Twierdzenie Kirchoffa |
+| :x: | Liczba/wielomian chromatyczna |
+| :x: | Kolorwanie krawędzi grafu dwudzielnego w D |
+| :heavy_check_mark: | K-ta najkrótsza ścieżka |
+| :x: | Incremental bipartite matching |
+| :x: | SPFA smu |
 
 Geometria
-- [ ] Zdecydować postępowanie co do templatów i doubli
-- [x] Punkt (T)
-- [x] Angle cmp
-- [x] Segment dist, line dist (T)
-- [x] Przecięcie prostych/odcinków (T)
-- [x] Środek ciężkości wielokąta (T)
-- [x] Test czy jest w środku wielokąta (T)
-- [x] Otoczka wypukła
-- [ ] Suma minkowskiego
-- [x] Najdalsze punkty na otoczce (T)
-- [x] Styczne do otoczki (T)
-- [x] Przecięcie otoczki z prostą (T)
-- [x] Przecięcie półpłaszczyzn (T)
-- [ ] Online przecięcie półpłaszczyzn
-- [x] Suma wielokątów (T)
-- [ ] Okrąg
-- [x] Przecięcie okrąg okrąg (T)
-- [ ] Pole przecięcia okrąg okrąg
-- [x] Przecięcie okręgu i prostej (T)
-- [x] Wspólne styczne okręgów (T)
-- [x] Okrąg opisany na trójkącie (T)
-- [x] Min enclosing circle (T)
-- [x] Najbliższa para punktów
-- [x] Delaunay triangulation (T*)
-- [x] Manhattan MST
-- [x] Punkt 3D (T)
-- [x] Otoczka 3D O(n^2) (T)
-- [ ] Otoczka 3D O(n log n)
-- [ ] Pole powierzchni
-- [x] Objętość (T)
-- [x] Test czy punkt w otoczce (T)
-- [x] Obcięcie wielokąta prostą (T)
-- [x] Pole wielokąta (T)
-- [ ] Online otoczka wypukła
-- [ ] Generowanie SVG wielokąta z punktów
-- [ ] Diagram Voronoia
-- [ ] Konwersja między postaciami prostych
-- [ ] Test czy odcinek jest w środku wielokąta
-- [ ] Zamiatanie cykliczne półprostą
-- [ ] Convex poly periodic min comp (zamienic z hull tangents, dodac min/max dot) (maspy)
-- https://github.com/kth-competitive-programming/kactl/issues/137
-- [ ] Jakiś point location albo przynajmniej tutorial lol
+| Stan | Nazwa |
+|:----:|-------|
+| :x: | Zdecydować postępowanie co do templatów i doubli |
+| :warning: | Punkt |
+| :heavy_check_mark: | Angle cmp |
+| :warning: | Segment dist, line dist |
+| :warning: | Przecięcie prostych/odcinków |
+| :warning: | Środek ciężkości wielokąta |
+| :warning: | Test czy jest w środku wielokąta |
+| :heavy_check_mark: | Otoczka wypukła |
+| :x: | Suma minkowskiego |
+| :warning: | Najdalsze punkty na otoczce |
+| :warning: | Styczne do otoczki |
+| :warning: | Przecięcie otoczki z prostą |
+| :warning: | Przecięcie półpłaszczyzn |
+| :x: | Online przecięcie półpłaszczyzn |
+| :warning: | Suma wielokątów |
+| :x: | Okrąg |
+| :warning: | Przecięcie okrąg okrąg |
+| :x: | Pole przecięcia okrąg okrąg |
+| :warning: | Przecięcie okręgu i prostej |
+| :warning: | Wspólne styczne okręgów |
+| :warning: | Okrąg opisany na trójkącie |
+| :warning: | Min enclosing circle |
+| :heavy_check_mark: | Najbliższa para punktów |
+| :warning: | Delaunay triangulation |
+| :heavy_check_mark: | Manhattan MST |
+| :warning: | Punkt 3D |
+| :warning: | Otoczka 3D O(n^2) |
+| :x: | Otoczka 3D O(n log n) |
+| :x: | Pole powierzchni |
+| :warning: | Objętość |
+| :warning: | Test czy punkt w otoczce |
+| :warning: | Obcięcie wielokąta prostą |
+| :warning: | Pole wielokąta |
+| :x: | Online otoczka wypukła |
+| :x: | Generowanie SVG wielokąta z punktów |
+| :x: | Diagram Voronoia |
+| :x: | Konwersja między postaciami prostych |
+| :x: | Test czy odcinek jest w środku wielokąta |
+| :x: | Zamiatanie cykliczne półprostą |
+| :x: | Convex poly periodic min comp (zamienic z hull tangents, dodac min/max dot) (maspy) |
+| :x: | Jakiś point location albo przynajmniej tutorial lol |
+| :x: | Geo 3d (op na liniach, płaszczyznach, sferach itp) |
 
 Teksty
-- [x] KMP (T)
-- [x] Z
-- [x] Manacher
-- [x] Duval
-- [x] Haszowanie (T)
-- [ ] Reverse Burrows-Wheeler
-- [x] Aho (T)
-- [x] Tablica sufiksowa
-- [ ] Liniowa tablica sufiksowa
-- [ ] Substringi cykliczne (Main-Lorentz)
-- [ ] Drzewo palindromów
-- [ ] Automat sufiksowy
-- [x] Drzewo sufiksowe (T)
-- [x] Wildcard matching
-- [ ] Znajdowanie przedziału wystąpień w tablicy sufiksowej
-- [ ] Inty zamiast stringów?
-- [ ] LCS miedzy wszystkimi substringami
-- [ ] Monge (range LIS query)
-- [ ] Szybkie modulo 2^61-1
+| Stan | Nazwa |
+|:----:|-------|
+| :warning: | KMP |
+| :heavy_check_mark: | Z |
+| :heavy_check_mark: | Manacher |
+| :heavy_check_mark: | Duval |
+| :warning: | Haszowanie |
+| :x: | Reverse Burrows-Wheeler |
+| :warning: | Aho |
+| :heavy_check_mark: | Tablica sufiksowa |
+| :x: | Liniowa tablica sufiksowa |
+| :x: | Substringi cykliczne (Main-Lorentz) |
+| :x: | Drzewo palindromów |
+| :x: | Automat sufiksowy |
+| :warning: | Drzewo sufiksowe |
+| :heavy_check_mark: | Wildcard matching |
+| :x: | Znajdowanie przedziału wystąpień w tablicy sufiksowej |
+| :x: | Inty zamiast stringów? |
+| :x: | LCS miedzy wszystkimi substringami |
+| :x: | Monge (range LIS query) |
+| :x: | Szybkie modulo 2^61-1 |
 
 Inne
-- [ ] Circular LCS
-- [ ] SMAWK
-- [x] Fast IO (T)
-- [ ] Python, decimal
-- [x] Divide and conquer DP (T)
-- [x] Knuth DP (T)
-- [ ] Pragmy
-- [ ] Subset sum dynamic bitset
-- [ ] CHT
-- [ ] Subset sum modulo m w O(m log m)
-- [ ] Dobre ściągi, w szczególności UJ, UW1, stare UW, bardzo stare UW
+| Stan | Nazwa |
+|:----:|-------|
+| :x: | Circular LCS |
+| :x: | SMAWK |
+| :warning: | Fast IO |
+| :x: | Python, decimal |
+| :warning: | Divide and conquer DP |
+| :warning: | Knuth DP |
+| :x: | Pragmy |
+| :x: | Subset sum dynamic bitset |
+| :x: | CHT |
+| :x: | Subset sum modulo m w O(m log m) |
+| :x: | Dobre ściągi, w szczególności UJ, UW1, stare UW, bardzo stare UW |
 
 Źródła
 - https://github.com/ecnerwala/cp-book/
