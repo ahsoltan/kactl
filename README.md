@@ -216,7 +216,7 @@ Teksty
 | :x: | Inty zamiast stringów? |
 | :x: | LCS miedzy wszystkimi substringami |
 | :x: | Monge (range LIS query) |
-| :x: | Szybkie modulo 2^61-1 |
+| :warning: | Szybkie modulo 2^61-1 |
 
 Inne
 | Stan | Nazwa |
