@@ -21,7 +21,7 @@ jobs:
         path: |
           ~/.cache/online-judge-tools
           .verify-helper/timestamps.remote.json
-        key: verify-${{ github.sha }}
+        key: verify-${{ github.run_attempt }}
         restore-keys: verify-
 
     - name: Run tests
