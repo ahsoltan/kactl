@@ -12,6 +12,7 @@ Do zrobienia
 - Generalnie prawie wszystko modulo powinno być na mintach
 - Podzielić duże pliki/hasze przedziałów (fft, fftpoly)
 - Cleanup fftpoly?
+- Czemu kurwa nie puszczane są testy z numerical???
 
 Testy do przeniesienia z acmlib
 ```
