@@ -23,23 +23,15 @@ jobs:
         path: |
           ~/.cache/online-judge-tools
           .verify-helper/timestamps.remote.json
+          .verify-helper/cache
         key: verify-${{ github.run_number }}-${{ github.run_attempt }}
         restore-keys: verify-
-
-    - name: Debug cache
-      run: cat .verify-helper/timestamps.remote.json
-
-    - name: Debug stupid shit
-      run: git log -1 --date=iso --pretty="format:%ad" Makefile README.md
-
-    - name: Debug stupid shit 2
-      run: git log -1 --date=iso --pretty="format:%ad" Makefile
-
-    - name: Debug stupid shit 3
-      run: git log -1 --date=iso --pretty="format:%ad" -- Makefile
 
     - name: Run tests
       env:
         YUKICODER_TOKEN: ${{ secrets.YUKICODER_TOKEN }}
         DROPBOX_TOKEN: ${{ secrets.DROPBOX_TOKEN }}
       run: oj-verify run
+
+    - name: Log timestamps
+      run: cat .verify-helper/timestamps.remote.json
