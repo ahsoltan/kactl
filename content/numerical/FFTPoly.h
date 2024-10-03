@@ -82,13 +82,11 @@ Poly& operator/=(Poly& a, Poly b) {
   return a;
 }
 Poly operator/(Poly a, Poly b) { return a /= b; }
-Poly& operator%=(Poly& a, Poly b) {
+Poly& operator%=(Poly& a, const Poly& b) {
   if (sz(a) < sz(b)) return a;
-  a -= (a / b) * b;
-  while (sz(a) && !a.back().x) a.pop_back();
-  return a;
+  return a = modK(a - (a / b) * b, sz(b) - 1);
 }
-Poly operator%(Poly a, Poly b) { return a %= b; }
+Poly operator%(Poly a, const Poly& b) { return a %= b; }
 vector<mint> eval(const Poly& a, const vector<mint>& x) {
   int n = sz(x);
   if (!n) return {};

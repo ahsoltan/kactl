@@ -35,6 +35,7 @@ int main() {
   rep(i, 0, n) cin >> f[i].x;
   rep(i, 0, m) cin >> g[i].x;
   Poly q = f / g, r = f % g;
+  while (sz(r) && !r.back().x) r.pop_back();
   cout << sz(q) << ' ' << sz(r) << '\n';
   rep(i, 0, sz(q)) cout << q[i].x << " \n"[i == sz(q) - 1];
   rep(i, 0, sz(r)) cout << r[i].x << " \n"[i == sz(r) - 1];
