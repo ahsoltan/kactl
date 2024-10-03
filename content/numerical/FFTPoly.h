@@ -48,7 +48,8 @@ Poly integr(const Poly& a) {
   return b;
 }
 Poly log(const Poly& a) { // a[0] = 1
-  return modK(integr(deriv(a) * inv(a)), sz(a));
+  Poly b = integr(deriv(a) * inv(a));
+  return b.resize(sz(a)), b;
 }
 Poly exp(const Poly& a) { // a[0] = 0
   Poly b = {1};

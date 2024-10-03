@@ -15,6 +15,14 @@ jobs:
     - name: Install dependencies
       run: pip3 install -U online-judge-verify-helper
 
+    - name: Setup cache
+      uses: actions/cache@v4
+      with:
+        path: |
+          ~/.cache/online-judge-tools
+          .verify-helper/timestamps.remote.json
+        key: oj-cache
+
     - name: Run tests
       env:
         YUKICODER_TOKEN: ${{ secrets.YUKICODER_TOKEN }}
