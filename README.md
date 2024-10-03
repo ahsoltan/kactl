@@ -10,6 +10,8 @@ Do zrobienia
 - Naprawić spacing po spisie treści i w ściągach
 - Zmergować algebrę na doublach i mintach przez szablony
 - Generalnie prawie wszystko modulo powinno być na mintach
+- Podzielić duże pliki/hasze przedziałów (fft, fftpoly)
+- Cleanup fftpoly?
 
 Testy do przeniesienia z acmlib
 ```
@@ -79,7 +81,7 @@ Matma
 | :x: | Macierz (pow, mnożenie) |
 | :x: | Odwrotność macierzy (eliminacja - odwr oddzielnie) (rząd - wyznacznik) |
 | :x: | Sherman Morrison |
-| :x: | [Operacje na wielomianach](https://github.com/kth-competitive-programming/kactl/pull/87) (inv, exp, pow, log, interp, eval, chirpz) |
+| :heavy_check_mark: | [Operacje na wielomianach](https://github.com/kth-competitive-programming/kactl/pull/87) (inv, exp, pow, log, interp, eval, ~~chirpz~~) |
 | :heavy_check_mark: | NTT |
 | :heavy_check_mark: | NTT Garner |
 | :heavy_check_mark: | Berlekamp-Massey |
