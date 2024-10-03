@@ -33,6 +33,9 @@ jobs:
     - name: Debug stupid shit 2
       run: git log -1 --date=iso --pretty="format:%ad" Makefile
 
+    - name: Debug stupid shit 3
+      run: git log -1 --date=iso --pretty="format:%ad" -- Makefile
+
     - name: Run tests
       env:
         YUKICODER_TOKEN: ${{ secrets.YUKICODER_TOKEN }}
