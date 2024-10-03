@@ -2,7 +2,6 @@
 ![verify](https://github.com/ahsoltan/kactl/actions/workflows/verify.yml/badge.svg)
 
 Do zrobienia
-- Cachowanie testów (`GITHUB_TOKEN`) działa?
 - https://github.com/kth-competitive-programming/kactl/issues/63
 - Cleanup weighted blossom?
 - https://github.com/kth-competitive-programming/kactl/issues/137
@@ -12,7 +11,8 @@ Do zrobienia
 - Generalnie prawie wszystko modulo powinno być na mintach
 - Podzielić duże pliki/hasze przedziałów (fft, fftpoly)
 - Cleanup fftpoly?
-- Czemu kurwa nie puszczane są testy z numerical???
+- Czemu kurwa nie puszczane są testy z numerical??? (lol)
+- Zrobić żeby cachowanie library-checker-problems było mądrzejsze
 
 Testy do przeniesienia z acmlib
 ```
