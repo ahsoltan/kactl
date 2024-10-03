@@ -28,7 +28,10 @@ jobs:
       run: cat .verify-helper/timestamps.remote.json
 
     - name: Debug stupid shit
-      run: git --version
+      run: git log -1 --date=iso --pretty="format:%ad" Makefile README.md
+
+    - name: Debug stupid shit 2
+      run: git log -1 --date=iso --pretty="format:%ad" Makefile
 
     - name: Run tests
       env:
