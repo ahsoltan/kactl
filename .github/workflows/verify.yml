@@ -27,6 +27,9 @@ jobs:
     - name: Debug cache
       run: cat .verify-helper/timestamps.remote.json
 
+    - name: Debug stupid shit
+      run: git --version
+
     - name: Run tests
       env:
         YUKICODER_TOKEN: ${{ secrets.YUKICODER_TOKEN }}
