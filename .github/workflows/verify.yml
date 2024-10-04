@@ -23,7 +23,6 @@ jobs:
         path: |
           ~/.cache/online-judge-tools
           .verify-helper/timestamps.remote.json
-          .verify-helper/cache
         key: verify-${{ github.run_number }}-${{ github.run_attempt }}
         restore-keys: verify-
 
