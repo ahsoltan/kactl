@@ -211,7 +211,7 @@ Teksty
 | :heavy_check_mark: | Tablica sufiksowa |
 | :x: | Liniowa tablica sufiksowa |
 | :x: | Substringi cykliczne (Main-Lorentz) |
-| :x: | Drzewo palindromów |
+| :heavy_check_mark: | Drzewo palindromów |
 | :x: | Automat sufiksowy |
 | :warning: | Drzewo sufiksowe |
 | :heavy_check_mark: | Wildcard matching |
