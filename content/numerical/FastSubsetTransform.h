@@ -17,15 +17,21 @@ void FST(vector<mint>& a, bool inv) {
   for (int n = sz(a), step = 1; step < n; step *= 2) {
     for (int i = 0; i < n; i += 2 * step) rep(j,i,i+step) {
       mint &u = a[j], &v = a[j + step]; tie(u, v) =
-        // inv ? pair(v - u, u) : pair(v, u + v); // AND /// include-line
-        // inv ? pair(v, u - v) : pair(u + v, u); // OR /// include-line
+#if defined(AND) // exclude-line
+        inv ? pair(v - u, u) : pair(v, u + v); // AND
+#elif defined(OR) // exclude-line
+        inv ? pair(v, u - v) : pair(u + v, u); // OR
+#elif defined(XOR) // exclude-line
         pair(u + v, u - v);                    // XOR
+#endif // exclude-line
     }
   }
+#if defined(XOR) // exclude-line
   if (inv) { // XOR only
     mint i = mint(sz(a)).inv();
     for (mint& x : a) x *= i;
   }
+#endif // exclude-line
 }
 vector<mint> conv(vector<mint> a, vector<mint> b) {
   FST(a, 0); FST(b, 0);

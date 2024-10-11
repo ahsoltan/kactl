@@ -92,7 +92,7 @@ Matma
 | :warning: | Binsearch na ułamkach |
 | :heavy_check_mark: | Logarytm dyskretny |
 | :heavy_check_mark: | Generator mod |
-| :warning: | Sploty AND, OR, XOR |
+| :heavy_check_mark: | Sploty AND, OR, XOR |
 | :x: | Splot SUBSET |
 | :x: | Interpolacja Lagrange'a dla jednego punktu z 0...n |
 | :x: | Rozwiązywanie niekwadratowego SLAE |
