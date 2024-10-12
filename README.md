@@ -79,8 +79,8 @@ Matma
 | :warning: | Ciąg debruijna |
 | :heavy_check_mark: | Nim product |
 | :warning: | Przecięcie matroidów |
-| :x: | Macierz (pow, mnożenie) |
-| :x: | Odwrotność macierzy (eliminacja - odwr oddzielnie) (rząd - wyznacznik) |
+| :x: | Szybkie mnożenie i potęgowanie macierzy |
+| :heavy_check_mark: | Macierz (wyznacznik, odwrotność) |
 | :x: | Sherman Morrison |
 | :heavy_check_mark: | [Operacje na wielomianach](https://github.com/kth-competitive-programming/kactl/pull/87) (inv, exp, pow, log, interp, eval, ~~chirpz~~) |
 | :heavy_check_mark: | NTT |
@@ -95,7 +95,7 @@ Matma
 | :heavy_check_mark: | Sploty AND, OR, XOR |
 | :x: | Splot SUBSET |
 | :x: | Interpolacja Lagrange'a dla jednego punktu z 0...n |
-| :x: | Rozwiązywanie niekwadratowego SLAE |
+| :heavy_check_mark: | Rozwiązywanie niekwadratowego SLAE |
 | :x: | Mobius i Phi |
 | :x: | Rozwiązania równania Pella |
 | :x: | Sumy potęgowe |

@@ -1,29 +1,29 @@
 /**
- * Author: Per Austrin, Simon Lindholm
+ * Author: Per Austrin, Simon Lindholm, Adam Soltan
  * Date: 2004-02-08
  * License: CC0
- * Description: Solves $A * x = b$. If there are multiple solutions, an arbitrary one is returned.
- *  Returns rank, or -1 if no solutions. Data in $A$ and $b$ is lost.
+ * Description: Solves $Ax = b$. If no solutions exist, returns $-1$.
+ * Otherwise, returns the rank of $A$ and transforms it s.t.\ $\{ A'_1, A'_2, \dots \}$
+ * is a basis of the kernel of $A$.
  * Time: O(n^2 m)
  * Status: tested on kattis:equationsolver, and bruteforce-tested mod 3 and 5 for n,m <= 3
  */
 #pragma once
 
-typedef vector<double> vd;
 const double eps = 1e-12;
 
-int solveLinear(vector<vd>& A, vd& b, vd& x) {
+template<class T>
+int solveLinear(auto& A, vector<T>& b, vector<T>& x) {
   int n = sz(A), m = sz(x), rank = 0, br, bc;
   if (n) assert(sz(A[0]) == m);
   vi col(m); iota(all(col), 0);
-
   rep(i,0,n) {
-    double v, bv = 0;
+    T v, bv = 0;
     rep(r,i,n) rep(c,i,m)
-      if ((v = fabs(A[r][c])) > bv)
+      if ((v = abs(A[r][c])) > bv)
         br = r, bc = c, bv = v;
     if (bv <= eps) {
-      rep(j,i,n) if (fabs(b[j]) > eps) return -1;
+      rep(j,i,n) if (abs(b[j]) > eps) return -1;
       break;
     }
     swap(A[i], A[br]);
@@ -31,19 +31,22 @@ int solveLinear(vector<vd>& A, vd& b, vd& x) {
     swap(col[i], col[bc]);
     rep(j,0,n) swap(A[j][i], A[j][bc]);
     bv = 1/A[i][i];
-    rep(j,i+1,n) {
-      double fac = A[j][i] * bv;
+    rep(j,0,n) if (j != i) {
+      T fac = A[j][i] * bv;
       b[j] -= fac * b[i];
       rep(k,i+1,m) A[j][k] -= fac*A[i][k];
     }
     rank++;
   }
-
   x.assign(m, 0);
-  for (int i = rank; i--;) {
+  for (int i = rank - 1; i >= 0; i--) {
     b[i] /= A[i][i];
     x[col[i]] = b[i];
-    rep(j,0,i) b[j] -= A[j][i] * b[i];
   }
-  return rank; // (multiple solutions if rank < m)
+  vector<vector<T>> ker(m - rank, vector<T>(m));
+  rep(i, rank, m) {
+    ker[i - rank][col[i]] = 1;
+    rep(j, 0, rank) ker[i - rank][col[j]] -= A[j][i] / A[j][j];
+  }
+  return A = ker, rank;
 }
