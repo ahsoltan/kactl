@@ -9,7 +9,8 @@
  */
 #pragma once
 
-template<class T> T det(vector<vector<T>>& a) {
+template<class T>
+T det(vector<vector<T>>& a) {
   int n = sz(a); T res = 1;
   rep(i,0,n) {
     int b = i;

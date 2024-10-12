@@ -24,6 +24,8 @@ void __print(auto... x) { ((cerr << " " << x), ...) << endl; }
 #define debug(...) 2137
 #endif
 
+#include "content/number-theory/ModInt.h"
+
 #define XOR
 #include "content/numerical/FastSubsetTransform.h"
 

@@ -7,11 +7,9 @@ Do zrobienia
 - https://github.com/kth-competitive-programming/kactl/issues/137
 - Zredagować ściągi, pewnie wywalić większość
 - Naprawić spacing po spisie treści i w ściągach
-- Zmergować algebrę na doublach i mintach przez szablony
 - Generalnie prawie wszystko modulo powinno być na mintach
 - Podzielić duże pliki/hasze przedziałów (fft, fftpoly)
 - Cleanup fftpoly?
-- Czemu kurwa nie puszczane są testy z numerical??? (lol)
 - Zrobić żeby cachowanie library-checker-problems było mądrzejsze
 
 Testy do przeniesienia z acmlib
@@ -79,7 +77,7 @@ Matma
 | :warning: | Ciąg debruijna |
 | :heavy_check_mark: | Nim product |
 | :warning: | Przecięcie matroidów |
-| :x: | Szybkie mnożenie i potęgowanie macierzy |
+| :x: | Szybkie mnożenie (simd) i potęgowanie (frobenius) macierzy |
 | :heavy_check_mark: | Macierz (wyznacznik, odwrotność) |
 | :x: | Sherman Morrison |
 | :heavy_check_mark: | [Operacje na wielomianach](https://github.com/kth-competitive-programming/kactl/pull/87) (inv, exp, pow, log, interp, eval, ~~chirpz~~) |
