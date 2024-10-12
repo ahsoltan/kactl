@@ -12,13 +12,6 @@ Do zrobienia
 - Cleanup fftpoly?
 - Zrobić żeby cachowanie library-checker-problems było mądrzejsze
 
-Testy do przeniesienia z acmlib
-```
-.
-├── graph
-│   └── SCC.test.cpp
-```
-
 Do weryfikacji w KACTL
 | Stan | Nazwa |
 |:----:|-------|
@@ -112,7 +105,7 @@ Grafy
 | :x: | HLD |
 | :x: | Centroidy |
 | :heavy_check_mark: | Cykl eulera |
-| :x: | SCC |
+| :heavy_check_mark: | SCC |
 | :warning: | 2-SAT |
 | :x: | Mosty, cutpointy |
 | :warning: | Maksymalne kliki |
