@@ -15,12 +15,8 @@ Do zrobienia
 Testy do przeniesienia z acmlib
 ```
 .
-├── geometry
-│   └── HullDiameter.test.cpp
 ├── graph
 │   └── SCC.test.cpp
-├── math
-│   ├── FWHT.test.cpp
 ```
 
 Do weryfikacji w KACTL
@@ -162,7 +158,7 @@ Geometria
 | :warning: | Test czy jest w środku wielokąta |
 | :heavy_check_mark: | Otoczka wypukła |
 | :x: | Suma minkowskiego |
-| :warning: | Najdalsze punkty na otoczce |
+| :heavy_check_mark: | Najdalsze punkty na otoczce |
 | :warning: | Styczne do otoczki |
 | :warning: | Przecięcie otoczki z prostą |
 | :warning: | Przecięcie półpłaszczyzn |
