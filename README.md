@@ -107,7 +107,8 @@ Grafy
 | :heavy_check_mark: | Cykl eulera |
 | :heavy_check_mark: | SCC |
 | :warning: | 2-SAT |
-| :x: | Mosty, cutpointy |
+| :heavy_check_mark: | Dwuspójne krawędziowe |
+| :x: | Dwuspójne wierzchołkowe |
 | :warning: | Maksymalne kliki |
 | :warning: | Dinic |
 | :warning: | Gomory-Hu |
