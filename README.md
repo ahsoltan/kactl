@@ -98,7 +98,7 @@ Matma
 Grafy
 | Stan | Nazwa |
 |:----:|-------|
-| :x: | DSU |
+| :heavy_check_mark: | DSU |
 | :x: | Ujemny cykl |
 | :x: | LCA skok |
 | :x: | LCA rmq z kompresją |
