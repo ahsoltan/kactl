@@ -24,6 +24,7 @@ void __print(auto... x) { ((cerr << " " << x), ...) << endl; }
 #define debug(...) 2137
 #endif
 
+#include "content/data-structures/UnionFind.h"
 #include "content/graph/BiconnectedComponents.h"
 
 int main() {
@@ -39,20 +40,18 @@ int main() {
     ed[v].push_back({u, i});
     e[i] = {u, v};
   }
-  vector<bool> vis(n);
-  vector<vi> c;
+  int cnt = n;
+  UF uf(n);
   bicomps([&](const vi& ei) {
-    vi cc;
     for (int i : ei) {
       auto [u, v] = e[i];
-      if (!vis[u]) cc.push_back(u);
-      if (!vis[v]) cc.push_back(v);
-      vis[u] = vis[v] = 1;
+      cnt -= uf.join(u, v);
     }
-    c.push_back(cc);
   });
-  cout << sz(c) << '\n';
-  rep(i, 0, sz(c)) {
+  vector<vi> c(n);
+  rep(i, 0, n) c[uf.find(i)].push_back(i);
+  cout << cnt << '\n';
+  rep(i, 0, n) if (uf.find(i) == i) {
     cout << sz(c[i]);
     for (int x : c[i]) cout << ' ' << x;
     cout << '\n';
