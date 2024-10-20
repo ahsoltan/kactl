@@ -10,7 +10,7 @@
 struct Node {
   Node *p, *c[2];
   Node() { p = c[0] = c[1] = 0; }
-  // Vertex data
+  // Vertex data (flip is required)
   bool rev = 0;
   ll v, s, vs = 0;
   int sz, vsz = 0;
@@ -19,7 +19,10 @@ struct Node {
     d += x, vd += x;
     v += x, s += sz * x, vs += vsz * x;
   }
-  // BST operations (flip is required)
+  void flip() {
+    swap(c[0], c[1]), rev ^= 1;
+  }
+  // BST operations
   void push() {
     if (rev) {
       rep(i, 0, 2) if (c[i]) c[i]->flip();
@@ -35,9 +38,6 @@ struct Node {
     sz = 1 + vsz;
     if (c[0]) s += c[0]->s, sz += c[0]->sz;
     if (c[1]) s += c[1]->s, sz += c[1]->sz;
-  }
-  void flip() {
-    swap(c[0], c[1]), rev ^= 1;
   }
   // Virtual operations (vd = virtual delta, cc = cancel)
   void vadd(Node* x) { // Add x, x.cc = vd
