@@ -120,7 +120,7 @@ Grafy
 | :heavy_check_mark: | Drzewo dominatorów |
 | :warning: | Kolorowanie krawędzi w D+1 |
 | :heavy_check_mark: | DMST |
-| :x: | Link-cut tree z różnymi rzeczami |
+| :warning: | Link-cut tree z różnymi rzeczami |
 | :x: | Dynamic connectivity |
 | :x: | Twierdzenie Koniga |
 | :warning: | Ściany grafu planarnego |
