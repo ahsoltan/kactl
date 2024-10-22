@@ -89,7 +89,7 @@ Matma
 | :x: | Generowanie trójek pitagorejskich |
 | :warning: | Przedziały równości dzielenia floor/ceil |
 | :x: | XOR basis |
-| :x: | Mnożniki lagrange'a |
+| :heavy_check_mark: | Mnożniki lagrange'a |
 | :heavy_check_mark: | Wyznacznik macierzy (black box z berlekampem) |
 | :x: | Kod graya i odwrotność |
 | :x: | Schreier-Sims |
