@@ -133,7 +133,8 @@ Grafy
 | :x: | Reroot DP |
 | :heavy_check_mark: | Twierdzenie BEST |
 | :heavy_check_mark: | Twierdzenie Kirchoffa |
-| :x: | Liczba/wielomian chromatyczna |
+| :heavy_check_mark: | Liczba chromatyczna |
+| :x: | Wielomian chromatyczny |
 | :x: | Kolorwanie krawędzi grafu dwudzielnego w D |
 | :heavy_check_mark: | K-ta najkrótsza ścieżka |
 | :x: | Incremental bipartite matching |
