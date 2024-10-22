@@ -93,7 +93,7 @@ Matma
 | :heavy_check_mark: | Wyznacznik macierzy (black box z berlekampem) |
 | :x: | Kod graya i odwrotność |
 | :x: | Schreier-Sims |
-| :x: | Twierdzenie pentagonalne eulera |
+| :heavy_check_mark: | Twierdzenie pentagonalne eulera |
 
 Grafy
 | Stan | Nazwa |

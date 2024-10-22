@@ -26,6 +26,9 @@
     Number of ways of writing $n$ as a sum of positive integers, disregarding the order of the summands.
     \[ p(0) = 1,\ p(n) = \sum_{k \in \mathbb Z \setminus \{0\}}{(-1)^{k+1} p(n - k(3k-1) / 2)} \]
     \[ p(n) \sim 0.145 / n \cdot \exp(2.56 \sqrt{n}) \]
+    \[
+      \Bigl( \sum_{n=0}^{\infty} p(n) x^n \Bigr)^{-1} = 1 + \sum_{n=1}^{\infty} (-1)^n \Bigl( x^{n(3n + 1)/2} + x^{n(3n - 1)/2} \Bigr)
+    \]
 
     \begin{center}
     \begin{tabular}{c|c@{\ }c@{\ }c@{\ }c@{\ }c@{\ }c@{\ }c@{\ }c@{\ }c@{\ }c@{\ }c@{\ }c@{\ }c}
