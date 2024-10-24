@@ -198,7 +198,7 @@ Teksty
 | :warning: | Aho |
 | :heavy_check_mark: | Tablica sufiksowa |
 | :x: | Liniowa tablica sufiksowa |
-| :x: | Substringi cykliczne (Main-Lorentz) |
+| :heavy_check_mark: | Substringi cykliczne (Main-Lorentz) |
 | :heavy_check_mark: | Drzewo palindromów |
 | :x: | Automat sufiksowy |
 | :warning: | Drzewo sufiksowe |

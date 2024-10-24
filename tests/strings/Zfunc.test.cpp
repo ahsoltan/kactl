@@ -32,6 +32,5 @@ int main() {
   string s;
   cin >> s;
   auto f = Z(s);
-  f[0] = sz(s);
   rep(i, 0, sz(s)) cout << f[i] << " \n"[i == sz(s) - 1];
 }
