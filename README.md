@@ -94,6 +94,7 @@ Matma
 | :x: | Kod graya i odwrotność |
 | :x: | Schreier-Sims |
 | :heavy_check_mark: | Twierdzenie pentagonalne eulera |
+| :warning: | Ułamek |
 
 Grafy
 | Stan | Nazwa |
