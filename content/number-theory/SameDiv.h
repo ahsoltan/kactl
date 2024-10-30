@@ -1,7 +1,8 @@
 /**
  * Author: Adam Soltan
  * Description: Divides the interval $[1, \infty)$ into constant division
- * intervals.
+ * intervals. For a significant speedup, get rid of \texttt{v} and do the
+ * calculations directly in the loop.
  * Time: O(\sqrt{n})
  */
 #pragma once
