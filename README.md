@@ -131,7 +131,7 @@ Grafy
 | :x: | 5-kolorowanie grafu planarnego |
 | :x: | Max matching Tutte |
 | :x: | Incremental SCC |
-| :x: | Reroot DP |
+| :warning: | Reroot DP |
 | :heavy_check_mark: | Twierdzenie BEST |
 | :heavy_check_mark: | Twierdzenie Kirchoffa |
 | :heavy_check_mark: | Liczba chromatyczna |
