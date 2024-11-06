@@ -220,7 +220,7 @@ Inne
 | :warning: | Divide and conquer DP |
 | :warning: | Knuth DP |
 | :x: | Pragmy |
-| :x: | Subset sum dynamic bitset |
+| :warning: | Subset sum dynamic bitset |
 | :x: | CHT |
 | :x: | Subset sum modulo m w O(m log m) |
 | :x: | Dobre ściągi, w szczególności UJ, UW1, stare UW, bardzo stare UW |
