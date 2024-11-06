@@ -219,7 +219,7 @@ Inne
 | :x: | Python, decimal |
 | :warning: | Divide and conquer DP |
 | :warning: | Knuth DP |
-| :x: | Pragmy |
+| :warning: | Pragmy |
 | :warning: | Subset sum dynamic bitset |
 | :x: | CHT |
 | :x: | Subset sum modulo m w O(m log m) |
