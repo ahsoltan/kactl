@@ -104,7 +104,7 @@ Grafy
 | :x: | LCA skok |
 | :x: | LCA rmq z kompresją |
 | :x: | HLD |
-| :x: | Centroidy |
+| :heavy_check_mark: | Centroidy |
 | :heavy_check_mark: | Cykl eulera |
 | :heavy_check_mark: | SCC |
 | :warning: | 2-SAT |
