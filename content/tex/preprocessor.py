@@ -57,6 +57,7 @@ COMMENT_TYPES = [
     ("'''", "'''"),
     ('"""', '"""'),
 ]
+COLUMN_LIMIT = 63
 
 def find_start_comment(source, start=None):
     first = (-1, -1, None)
@@ -144,6 +145,10 @@ def processwithcomments(caption, instream, outstream, listingslang):
     if end>=0:
         nsource = nsource.rstrip() + source[end:]
     nsource = nsource.strip()
+
+    for line in nsource.splitlines():
+        if len(line) > COLUMN_LIMIT:
+            warning = f'Column limit exceeded ({len(line)}/{COLUMN_LIMIT})'
 
     if listingslang in ['C++', 'Java']:
         hash_script = 'hash'
