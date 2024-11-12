@@ -30,7 +30,7 @@ Struktury danych
 | Stan | Nazwa |
 |:----:|-------|
 | :heavy_check_mark: | gp_hash_table |
-| :warning: | ordered_set |
+| :heavy_check_mark: | ordered_set |
 | :heavy_check_mark: | Line container |
 | :heavy_check_mark: | Sparse table |
 | :warning: | Lazy segtree |
