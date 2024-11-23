@@ -11,6 +11,7 @@ Do zrobienia
 - Podzielić duże pliki/hasze przedziałów (fft, fftpoly)
 - Cleanup fftpoly?
 - Zrobić żeby cachowanie library-checker-problems było mądrzejsze
+- 4 KOLUMNY!!!
 
 Do weryfikacji w KACTL
 | Stan | Nazwa |
@@ -224,6 +225,7 @@ Inne
 | :x: | CHT |
 | :x: | Subset sum modulo m w O(m log m) |
 | :x: | Dobre ściągi, w szczególności UJ, UW1, stare UW, bardzo stare UW |
+| :x: | Szybkie sortowanie |
 
 Źródła
 - https://github.com/ecnerwala/cp-book/
