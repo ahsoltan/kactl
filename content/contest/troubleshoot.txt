@@ -1,0 +1,14 @@
+Czy na wejsciu pojawic sie moga long longi, np. m <= n^2?
+Czy tresc jest w 100% jasna?
+Czy bardzo dokladnie przeczytana jest sekcja input?
+Daj komus innemu przeczytac tresc niezaleznie, zadaj pytanie.
+Czy dziala dla brzegowych, np. n/m = 0/1, wszystkie a_i = 0?
+Czy tablice za male?
+Czy wszedzie modulujesz? Czy dobre modulo?
+Czy na wejsciu moga byc liczby poza [0, mod)?
+Czy zle parsujesz wejscie, np. zamiast wczytac double?
+WA z double nie oznacza bledu precyzji, tym bardziej z long dbl
+Czy napisales cos, co mogles przepisac z biblioteczki?
+Czy interakcja jest poprawna, np. brak znaku zapytania?
+Czy format wyjscia jest poprawny, np. brak YES?
+Czy uzywasz double gdzies, gdzie mozna tego uniknac?
