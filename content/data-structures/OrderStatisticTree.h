@@ -6,6 +6,7 @@
  * Description: A set (not multiset!) with support for finding the n'th
  * element, and finding the index of an element.
  * To get a map, change \texttt{null\_type}.
+ * \textbf{NEVER use} \texttt{swap(x, y)}, \textbf{instead use} \texttt{x.swap(y)}.
  * Time: O(\log N)
  */
 #pragma once
