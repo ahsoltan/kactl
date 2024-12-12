@@ -3,8 +3,8 @@
  * License: CC0
  * Source: Own work
  * Description: Pack many custom size "variables" into one using bitfields.
- * WARNING: It is not possible to take references to such "variables".
- * Overflow on such "variables" (even an unsigned ones) is implementation defined.
+ * \textbf{It is not possible to take references to such "variables".
+ * Overflow on such "variables" (even an unsigned ones) is implementation defined.}
  */
 
 #include<bits/stdc++.h>
